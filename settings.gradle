@@ -1,0 +1,3 @@
+include ':app'
+include ':Libs:ImageLoader'
+project (':Libs:ImageLoader').projectDir = new File(settingsDir, './libs/ImageLoader')
